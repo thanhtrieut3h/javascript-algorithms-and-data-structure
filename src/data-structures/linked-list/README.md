@@ -6,8 +6,11 @@ Một hạn chế của danh sách liên kết là buộc phải duyệt tuyến
 **LinkedList (danh sách liên kết)** là một cấu trúc dữ liệu tuyến tính, trong đó các phần tử (được gọi là node) không lưu trữ liên tiếp nhau trong bộ nhớ như mảng. Thay vào đó, mỗi node sẽ lưu trữ dữ liệu và tham chiếu (liên kết) đến node tiếp theo trong danh sách.
 
 LinkedList không phải là một khối liên tục như Array.
+
 Thay vào đó:
+
 👉 Mỗi phần tử (node) là một object riêng biệt trong bộ nhớ
+
 👉 Các node liên kết với nhau bằng reference (con trỏ)
 
 ![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
@@ -156,12 +159,19 @@ Diễn giải : điều đầu tiên cần làm là xác định vị trí của
 O(n)
 
 ### Khi nào nên dùng LinkedList?
+
 1/Thường xuyên thêm/xóa phần tử ở đầu danh sách
+
 2/Không cần truy cập ngẫu nhiên (theo chỉ số)
+
 3/Kích thước danh sách thay đổi liên tục
+
 4/Cài đặt các cấu trúc như Stack, Queue
+
 ### Không nên dùng khi:
+
 1/Cần truy cập nhanh theo index
+
 2/Cần tối ưu cache/memory locality
 
 ### Liên kết
