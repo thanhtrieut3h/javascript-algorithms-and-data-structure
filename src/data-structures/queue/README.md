@@ -17,6 +17,11 @@ Hình ảnh mình hoạ về hàng đợi.
 
 ![Queue](https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg)
 
+
+
+### Ứng dụng thực tế
+Queue xuất hiện khắp nơi trong lập trình hệ thống. Máy in xếp các lệnh in vào Queue, xử lý từng cái theo thứ tự nhận được. BFS (Breadth-First Search) dùng Queue để duyệt đồ thị theo chiều rộng — mỗi node được thêm vào Queue khi khám phá, và lấy ra theo thứ tự FIFO. Hệ điều hành dùng Queue để quản lý các tiến trình chờ CPU. Server web dùng Queue để xếp hàng các request HTTP khi tải cao. ***Hàm setTimeout trong JavaScript*** cũng dùng Event Queue — các callback được đẩy vào Queue và thực thi theo thứ tự khi call stack trống.
+
 ## Liên kết
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
