@@ -3,6 +3,13 @@
 Trong khoa học máy tính, **danh sách liên kết** là một tập hợp tuyết tính của các phần tử dữ liệu, trong đó thứ tự tuyến tính của nó không được cung cấp bởi địa chỉ vật lý trong bộ nhớ, thay vào đó, mỗi phần tử sẽ trỏ đến địa chỉ của phần tử kế tiếp. Nó là một cấu trúc dữ liệu bao gồm một nhóm các nút cùng đại diện cho một chuỗi. Ở dạng đơn giản nhất, mỗi nút bao gồm hai phần là dữ liệu và tham chiếu(cũng có thể nói là một liên kết) đến nút kế tiếp trong chuỗi. Cấu trúc này cho phép chèn hoặc loại bỏ các phần tử ở bất kỳ vị trí nào của chuỗi bằng cách dùng vòng lặp. Các dạng phức tạp hơn thêm các liên kết bổ sung cho phép ta thêm hay xoá các phần tử tham chiếu tuỳ ý. 
 Một hạn chế của danh sách liên kết là buộc phải duyệt tuyến tính. Việc truy cập ngẫu nhiên là bất khả thi, thế nên khi so sánh với mảng có bộ nhớ cache, thì danh sách liên kết không tối ưu bằng.
 
+**LinkedList (danh sách liên kết)** là một cấu trúc dữ liệu tuyến tính, trong đó các phần tử (được gọi là node) không lưu trữ liên tiếp nhau trong bộ nhớ như mảng. Thay vào đó, mỗi node sẽ lưu trữ dữ liệu và tham chiếu (liên kết) đến node tiếp theo trong danh sách.
+
+LinkedList không phải là một khối liên tục như Array.
+Thay vào đó:
+👉 Mỗi phần tử (node) là một object riêng biệt trong bộ nhớ
+👉 Các node liên kết với nhau bằng reference (con trỏ)
+
 ![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
 ## Mã giả cho các hoạt động cơ bản
@@ -148,7 +155,15 @@ Diễn giải : điều đầu tiên cần làm là xác định vị trí của
 
 O(n)
 
-### Liên kết
+### Khi nào nên dùng LinkedList?
+1/Thường xuyên thêm/xóa phần tử ở đầu danh sách
+2/Không cần truy cập ngẫu nhiên (theo chỉ số)
+3/Kích thước danh sách thay đổi liên tục
+4/Cài đặt các cấu trúc như Stack, Queue
+### Không nên dùng khi:
+1/Cần truy cập nhanh theo index
+2/Cần tối ưu cache/memory locality
 
+### Liên kết
 - [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)
 - [YouTube](https://www.youtube.com/watch?v=njTh_OwMljA&index=2&t=1s&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8)
