@@ -158,6 +158,10 @@ Diễn giải : điều đầu tiên cần làm là xác định vị trí của
 
 O(n)
 
+### Ứng dụng thực tế
+
+Linked List là nền tảng của nhiều thứ bạn dùng hàng ngày: ***trình duyệt web*** dùng Doubly Linked List cho nút Back/Forward, undo/redo trong editor cũng vậy, hàng đợi (Queue) và ngăn xếp (Stack) thường implement bằng Linked List, bộ nhớ động của OS quản lý các vùng nhớ trống theo cấu trúc này.
+
 ### Khi nào nên dùng LinkedList?
 
 1/Thường xuyên thêm/xóa phần tử ở đầu danh sách
