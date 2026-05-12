@@ -1,5 +1,9 @@
 # Sắp xếp chọn
 
+Sắp xếp chọn (Selection Sort) là một thuật toán sắp xếp đơn giản, hoạt động dựa trên nguyên tắc: liên tục chọn phần tử nhỏ nhất (hoặc lớn nhất) từ phần chưa được sắp xếp và đưa nó về vị trí đúng.
+
+# Giải thích
+
 Sắp xếp chọn là một thuật toán sắp xếp, cụ thể là sắp xếp so sánh tại chỗ. Nó có độ phức tạp thời gian là O (n2), khiến nó không hiệu quả với các danh sách lớn và thường hoạt động kém hơn so với các thuật toán sắp xếp tương tự. 
 
 Sắp xếp chọn được quan tâm vì tính đơn giản của nó và lợi thế về hiệu suất so với các thuật toán phức tạp hơn trong một số tình huống nhất định, đặc biệt khi bộ nhớ phụ bị hạn chế.
