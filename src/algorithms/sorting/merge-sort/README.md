@@ -13,6 +13,8 @@ Trị (Conquer): Đệ quy sắp xếp từng nửa
 
 Kết hợp (Merge): Trộn 2 nửa đã sắp xếp thành mảng hoàn chỉnh
 
+## Minh hoạ
+
 ![Merge Sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
 Sắp xếp trộn bằng đệ quy trên một mảng 7 phần tử. Đây là những bước sắp xếp trộn từ dưới lên.
