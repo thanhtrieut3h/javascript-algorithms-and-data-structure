@@ -34,7 +34,14 @@ Kết quả: [11, 12, 22, 25, 64]
 
 | Name                  | Best            | Average             | Worst               | Memory    | Stable    | Comments  |
 | --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
-| **Selection sort**    | n<sup>2</sup>   | n<sup>2</sup>       | n<sup>2</sup>       | 1         | No        |           |
+| **Selection sort**    | n<sup>2</sup>   | n<sup>2</sup>       | n<sup>2</sup>       | 1         | No        |  
+|
+
+## So sánh Bubble Sort vs Selection Sort
+| Đặc điểm	      | Bubble Sort	            | Selection Sort
+| Nguyên lý       |	Đổi chỗ các cặp liền kề	| Chọn phần tử nhỏ nhất đưa về đầu
+| Số lần so sánh  | Luôn là O(n²)	          | Luôn là O(n²)
+| Số lần hoán đổi |	Nhiều (O(n²))	          | Ít (O(n))
 
 ## Liên kết
 
