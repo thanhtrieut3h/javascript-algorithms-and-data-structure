@@ -2,6 +2,17 @@
 
 Trong khoa học máy tính, tìm kiếm tuyến tính hay tìm kiếm tuần tự là một phương thức tìm kiếm giá trị trong danh sách. Nó tuần tự kiểm tra các phần tử trong danh sách đến khi tìm được giá trị phù hợp hoặc đã kiểm hết danh sách. Tìm kiếm tuyến tính hoạt động tệ nhất khi giá trị cần tìm ở cuối danh sách tức nó phải thực hiên `n` phép so sánh, với `n` là độ dài danh sách.
 
+# Giải thích
+Linear Search (Tìm kiếm tuyến tính) là thuật toán tìm kiếm đơn giản nhất:
+
+Duyệt từng phần tử từ đầu đến cuối mảng
+
+So sánh từng phần tử với giá trị cần tìm
+
+Trả về vị trí nếu tìm thấy, hoặc -1 nếu không tìm thấy
+
+# Minh hoạ 
+
 ![Linear Search](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
 
 ## Độ phức tạp
